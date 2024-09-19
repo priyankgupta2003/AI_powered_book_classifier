@@ -86,4 +86,4 @@ tokenizer.save_pretrained("./genre_classifier")
 
 # Save the label encoder
 import joblib
-joblib.dump(["Fantasy", "Romance"], './genre_classifier/label_encoder.joblib')   
+joblib.dump(["Fantasy", "Romance", "Fiction", "Drama"], './genre_classifier/label_encoder.joblib')   
